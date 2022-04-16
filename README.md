@@ -8,22 +8,28 @@ described in the paper
 
 Citation:
 
-```
+```bibtex
 @inproceedings{kong-etal-2022-semeval,
     title={BLCU-ICALL at SemEval-2022 Task 1: Cross-Attention Multitasking Framework for Definition Modeling},
-    author={Kong, Cunliang and Wang, Yujie and Chong, Ruining and Yang, Liner and Zhang, Hengyuan and Yang, Erhong and Huang, Yaping},
+    author={Kong, Cunliang and 
+            Wang, Yujie and 
+            Chong, Ruining and 
+            Yang, Liner and 
+            Zhang, Hengyuan and 
+            Yang, Erhong and 
+            Huang, Yaping},
     booktitle={Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)}
     year={2022},
     publisher={Association for Computational Linguistics},
 }
 ```
 
+## Architecture
 ![MSA](architecture.png)
-*Architecture of the Cross-Attention Multitasking Framework.*
 
 **Notes**
 
-* If what you are just interested in the source code for the model then just see
+* If what you are interested in the source code for the model then just see
   [src/model.py](https://github.com/blcuicall/SemEval2022-Task1-DM/blob/main/src/model.py)
   .
 
@@ -31,9 +37,11 @@ Citation:
 
 #### 1 - Install Requirements
 
-```
-pip install -r requirements.txt
-```
+- python >= 3.7
+- pytorch >= 1.8
+- transformers >= 4.17.0
+- tokenizers >= 0.11.6
+- tqdm >= 4.63.1
 
 #### 2 - Download CoDWoE Data
 
