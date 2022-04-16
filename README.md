@@ -1,7 +1,3 @@
-# SemEval2022-Task1-DM
-BLCU-ICALL at SemEval-2022 Task 1: Cross-Attention Multitasking 
-Framework for Definition Modeling
-
 ## Overview
 
 This repository contains the source code for the models used for _BLCU-ICALL_ team's submission
