@@ -3,7 +3,7 @@
 This repository contains the source code for the models used for _BLCU-ICALL_ team's submission
 for [Task 1: CODWOE - COmparing Dictionaries and WOrd Embeddings](https://competitions.codalab.org/competitions/34022). The model is
 described in the paper
-["BLCU-ICALL at SemEval-2022 Task 1: Cross-Attention Multitasking Framework for Definition Modeling"]()
+["BLCU-ICALL at SemEval-2022 Task 1: Cross-Attention Multitasking Framework for Definition Modeling"](https://arxiv.org/abs/2204.07701)
 .
 
 Citation:
